@@ -1,0 +1,25 @@
+.footer-custom h5 {
+    font-size: 20px;
+}
+.footer-custom {
+    padding-top: 10px;
+}
+
+.footer-custom hr {
+    background-color: #007bff;
+    height: 3px;
+    width: 25%;
+    border: none;
+}
+
+.footer-custom p,
+.footer-custom .list-unstyled li {
+    color: white;
+}
+
+.footer-custom .fa {
+    margin-right: 10px;
+}
+.footer-custom {
+    margin-top: 50px; 
+}

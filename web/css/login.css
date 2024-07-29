@@ -1,0 +1,34 @@
+/* Style cho form sign up */
+#logreg-forms .form-signup {
+    display: none; /* Ẩn form sign up ban đầu */
+}
+
+#logreg-forms .form-signup input {
+    margin-bottom: 10px; /* Để khoảng cách giữa các input của form sign up rộng hơn */
+}
+
+#logreg-forms .form-signup .social-login {
+    width: 230px !important; /* Điều chỉnh chiều rộng của các nút social login cho form sign up */
+}
+
+/* Style cho form sign in */
+#logreg-forms .form-signin {
+    padding: 20px; /* Để khoảng cách giữa các thành phần bên trong form sign in rộng hơn */
+}
+
+#logreg-forms .form-signin input[type="email"],
+#logreg-forms .form-signin input[type="password"] {
+    border-radius: 5px; /* Bo tròn góc cho các input của form sign in */
+    border: 1px solid #ccc; /* Đổi màu viền của input */
+    margin-bottom: 15px; /* Để khoảng cách giữa các input của form sign in rộng hơn */
+    width: 100%; /* Để input rộng hết khung của form */
+    padding: 10px; /* Để khoảng cách từ nội dung đến viền input */
+    box-sizing: border-box; /* Đảm bảo rằng padding không làm tăng kích thước của input */
+}
+
+#logreg-forms .form-signin button[type="submit"] {
+    margin-top: 20px; /* Để khoảng cách giữa nút "Sign in" và các input rộng hơn */
+    width: 100%; /* Để nút "Sign in" rộng hết khung của form */
+    padding: 10px; /* Để khoảng cách từ nội dung đến viền của nút */
+    box-sizing: border-box; /* Đảm bảo rằng padding không làm tăng kích thước của nút */
+}

@@ -1,0 +1,132 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 9, 2024, 12:40:55 AM
+    Author     : ADMIN
+*/
+
+
+
+.card-text {
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    z-index: 1;  
+    
+}
+
+    .sold-out-overlay {
+        position: absolute;
+        top: 10px; /* Điều chỉnh vị trí top */
+        right: 10px; /* Điều chỉnh vị trí right */
+        width: 100px; /* Điều chỉnh chiều rộng */
+        height: auto; /* Tự động tính chiều cao */
+        z-index: 10;
+    }
+    .register-block {
+                padding: 50px;
+                
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .register-text {
+                max-width: 50%;
+            }
+            .register-text h2 {
+                font-size: 2em;
+                margin-bottom: 20px;
+                font-weight: bold;
+            }
+            .register-text p {
+                font-size: 1.2em;
+                margin-bottom: 20px;
+
+            }
+            .register-button {
+                background-color: red;
+                border: 2px solid #b10d0d;
+                padding: 15px 150px; /* Adjust padding to make it larger */
+                font-size: 1.0em;
+                border-radius: 30px; /* Make corners rounded */
+                color: #ffffff;
+
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+            .watch-image {
+                max-width: 45%;
+            }
+            .watch-image img {
+                width: 100%;
+                border-radius: 5px;
+                
+            }
+              .top-block {
+                position: relative;
+                text-align: left; /* Align text to the left */
+                color: white;
+            }
+
+            .top-block img {
+                width: 100%;
+                height: auto;
+            }
+
+            .top-block .text-overlay {
+                position: absolute;
+                top: 50%;
+                left: 10%; /* Move the text to the left side */
+                transform: translateY(-50%); /* Only translate vertically to keep it aligned */
+                background: transparent; /* Transparent background */
+                padding: 20px;
+                border-radius: 10px;
+                bottom: 4px;
+            }
+
+            .top-block .text-overlay h1 {
+                margin: 0;
+                font-size: 2.5em;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .top-block .text-overlay h5 {
+                font-size: 1.2em;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            /* Nút giá tiền */
+            /* Nút giá tiền */
+            .price-button {
+                background-color: #333; /* Màu nền ban đầu */
+                color: white; /* Màu chữ ban đầu */
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px; /* Thêm padding để nút có kích thước tốt hơn */
+            }
+
+            .price-button:hover {
+                background-color: red; /* Màu nền khi hover */
+            }
+
+            /* Nút thêm vào giỏ hàng */
+            .add-to-cart-button {
+                background-color: dimgray; /* Màu nền ban đầu */
+                color: white!important; /* Màu chữ ban đầu */
+                border: none;
+            }
+
+            .add-to-cart-button:hover {
+                background-color: green; /* Màu nền khi hover (màu xanh) */
+            }
+
+

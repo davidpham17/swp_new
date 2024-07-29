@@ -1,0 +1,29 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 25, 2023, 12:07:44 AM
+    Author     : ADMIN
+*/
+.floating-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.floating-icon a {
+    display: block;
+    background: #0084ff; /* Màu nền của biểu tượng */
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.floating-icon img {
+    width: 30px; /* Kích thước biểu tượng */
+    height: 30px; /* Kích thước biểu tượng */
+}
+
+

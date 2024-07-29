@@ -1,0 +1,177 @@
+  
+    
+
+    .rating-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .product-image {
+        max-width: 100px;
+    }
+
+    .rating-stars {
+        display: flex;
+        gap: 5px;
+    }
+
+    .rating-stars input {
+        display: none;
+    }
+
+    .rating-stars label {
+        font-size: 1.5rem; /* Reduced font size for smaller stars */
+        color: #ddd;
+        cursor: pointer;
+    }
+
+    .rating-stars input:checked ~ label i,
+    .rating-stars label:hover i,
+    .rating-stars label:hover ~ label i {
+        color: #f39c12;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    /* Additional CSS for reviews display */
+    .reviews-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Gap between reviews */
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Gap between fields within a review */
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .review img {
+        max-width: 100px;
+        border-radius: 5px;
+    }
+
+    .review .rating {
+        display: flex;
+        gap: 5px;
+    }
+
+    .review .rating i {
+        font-size: 1rem; /* Smaller star size */
+        color: #f39c12;
+    }
+
+    .review-form-container {
+        margin-bottom: 20px;
+    }
+
+    .review-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+
+    
+.rating-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.star-label {
+    width: 40px; /* increased width for better alignment */
+    text-align: left;
+    margin-right: 10px;
+}
+
+.bar-container {
+    flex-grow: 1; /* ensure the bar takes up available space */
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+    position: relative;
+}
+
+.filled-bar {
+    height: 100%;
+    background-color: #f39c12; /* ensure this is visible */
+    border-radius: 5px;
+    position: absolute; /* absolute positioning */
+    top: 0;
+    left: 0;
+}
+
+.percentage-label {
+    width: 40px; /* increased width for better alignment */
+    text-align: left;
+}
+
+#write-review-btn {
+        padding: 0.5rem 1.5rem; /* Adjust padding for smaller size */
+    font-size: 1rem; /* Adjust font size for smaller size */
+    display: inline-block; /* Display as inline block */
+    margin: 0 auto; /* Center horizontally within the block */
+}
+
+
+ .average-rating {
+    font-size: 1.5em; /* Tăng kích thước font tổng thể */
+    display: flex;
+    align-items: center;
+}
+
+.rating-score {
+    font-size: 2em; /* Tăng kích thước số averageRating */
+    color: #f39c12; /* Màu cam */
+    font-weight: bold; /* Tô đậm */
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em; /* Tăng kích thước ngôi sao */
+    margin-right: 2px; /* Khoảng cách giữa các ngôi sao */
+    color: #ddd; /* Màu nền ngôi sao */
+}
+
+.star.full {
+    color: #f39c12; /* Màu ngôi sao đầy đủ */
+}
+
+.star.half {
+    background: linear-gradient(90deg, #f39c12 50%, #ddd 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.star.partial {
+    background: linear-gradient(90deg, #f39c12 calc(var(--percent) * 1%), #ddd calc(var(--percent) * 1%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.total-reviews {
+    color: #007bff; /* Màu xanh dương */
+    font-weight: bold; /* Tô đậm */
+    margin-left: 20px; /* Khoảng cách sang phải */
+}
+
+
+    
